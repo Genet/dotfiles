@@ -1,0 +1,26 @@
+[user]
+        name = AUTHORNAME
+        email = AUTHOREMAIL
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = nano
+[alias]
+        ci = commit
+        co = checkout
+	lol = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lola = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+[init]
+	templatedir = ~/.git_template
+[push]
+        default = simple
+[pull]
+        rebase = true
+[rebase]
+	autosquash = true
+[merge]
+	ff = only
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true

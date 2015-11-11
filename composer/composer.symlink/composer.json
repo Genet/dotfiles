@@ -1,0 +1,18 @@
+{
+    "require": {
+        "squizlabs/php_codesniffer": "~2.3",
+        "sebastian/phpcpd": "~2.0",
+        "phploc/phploc": "~2.1",
+        "phing/phing": "~2.12",
+        "phpmd/phpmd": "~2.3",
+        "theseer/phpdox": "*",
+        "phpdocumentor/phpdocumentor": "~2.8",
+        "mayflower/php-codebrowser": "~1.1",
+        "pdepend/pdepend": "~2.2",
+        "fabpot/php-cs-fixer": "~1.10"
+    },
+    "autoload": {
+        "psr-0": { "PHP_Depend": "vendor/pdepend/pdepend/src/main/php" }
+    },
+    "include-path": ["vendor/pdepend/pdepend/src/main/php"]
+}
